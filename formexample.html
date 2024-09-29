@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Example</title>
+    </head>
+    <body>
+        <form action="formexample.html" method="get" name="form">
+            <label for="username">Username</label><br>
+            <input type="text" name="username"><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password"><br>
+
+            <label for="agerange">Select your age range:</label>
+            <select name="agerange" id="agerange">
+                <option value="&lt;18">&lt;18</option>
+                <option value="18-21">18-21</option>
+                <option value="21+">21+</option>
+            </select>
+
+            <p>Select the better beer:</p>
+            <input type="radio" name="betterbeer" id="asahi" value="asahi">
+            <label for="asahi">Asahi</label>
+            <input type="radio" name="betterbeer" id="madri" value="madri">
+            <label for="madri">Madri</label>
+            <input type="radio" name="betterbeer" id="brixtonIPA" value="brixtonIPA">
+            <label for="brixtonIPA">Brixton IPA</label>
+            <input type="radio" name="betterbeer" id="carling" value="carling">
+            <label for="carling">Carling</label>
+            <input type="radio" name="betterbeer" id="heineken" value="heineken">
+            <label for="heineken">Heineken</label><br>
+
+            <input type="checkbox" id="item1" name="item1" value="item1">
+            <label for="item1">Item 1</label>
+            <input type="checkbox" id="item2" name="item2" value="item3">
+            <label for="item2">Item 2</label><br>
+
+            <p><label for="textarea">Text area:</label></p>
+            <textarea id="textarea" name="textarea" row="4" cols="50">Text area</textarea><br>
+
+            <input type="submit" value="submit" name="reset">
+            <input type="reset" value="reset" name="reset">
+        </form>
+    </body>
+</html>

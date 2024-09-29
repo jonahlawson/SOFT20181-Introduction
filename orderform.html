@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Instruments Order Form</title>
+    </head>
+    <body>
+        <form method="get">
+            <h3>Customer Details</h3>
+            <label for="fname">First Name</label>
+            <label for="lname">&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;Last Name</label><br>
+            <input type="text" name="fname">
+            <input type="text" name="lname"><br><br>
+            <label for="birthdate">Birthdate</label><br>
+            <input type="date" id="birthdate" name="birthdate"><br><br>
+            <label for="addressline1">Address Line 1*</label><br>
+            <input type="text" name="addressline1"><br>
+            <label for="addressline2">Address Line 2</label><br>
+            <input type="text" name="addressline2"><br>
+            <label for="city">City*</label><br>
+            <input type="text" name="city"><br>
+            <label for="postcode">Post Code*</label><br>
+            <input type="text" name="postcode"><br><br>
+
+            <h3>Method of payment</h3>
+            <p>Select the method:</p>
+            <input type="radio" name="method" id="visa" value="visa">
+            <label for="visa">Visa</label>
+            <input type="radio" name="method" id="mastercard" value="mastercard">
+            <label for="mastercard">Mastercard</label>
+            <input type="radio" name="method" id="amex" value="amex">
+            <label for="amex">American Express</label><br><br>
+            <label for="cardnumber">Card Number*</label><br>
+            <input type="text" name="cardnumber"><br>
+            <label for="expiry">Expiry Date*</label><br>
+            <input type="text" name="expiry"><br>
+            <label for="CVV">CVV*</label><br>
+            <input type="text" name="CVV"><br><br>
+
+            <h3>Products</h3>
+            <table style="width:100%">
+                <tr>
+                    <th>Product Name</th>
+                    <th>Product Image</th>
+                    <th>Product Price</th>
+                    <th>Quantity</th>
+                </tr>
+                <tr>
+                    <td>Cello</td>
+                    <td><img src="/Users/jonahlawson/Documents/NTU 2024:2025/Internet Application Programming/SOFT20181 - Introduction/assets/Cello.jpg" alt="Cello" width="80"></td>
+                    <td>£1500</td>
+                    <td>
+                        <label for="quantity">Quantity:</label><br>
+                        <input type="text" name="quantity"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Piano</td>
+                    <td><img src="/Users/jonahlawson/Documents/NTU 2024:2025/Internet Application Programming/SOFT20181 - Introduction/assets/Piano.jpg" alt="Piano" width="80"></td>
+                    <td>£30,000</td>
+                    <td>
+                        <label for="quantity2">Quantity:</label><br>
+                        <input type="text" name="quantity2"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Synthesizer</td>
+                    <td><img src="/Users/jonahlawson/Documents/NTU 2024:2025/Internet Application Programming/SOFT20181 - Introduction/assets/Synthesizer.jpg" alt="Synth" width="80"></td>
+                    <td>£500</td>
+                    <td>
+                        <label for="quantity3">Quantity:</label><br>
+                        <input type="text" name="quantity3"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Guitar</td>
+                    <td><img src="/Users/jonahlawson/Documents/NTU 2024:2025/Internet Application Programming/SOFT20181 - Introduction/assets/Guitar.jpg" alt="Guitar" width="80"></td>
+                    <td>£800</td>
+                    <td>
+                        <label for="quantity4">Quantity:</label><br>
+                        <input type="text" name="quantity4"><br>
+                    </td>
+                </tr>
+            </table><br>
+
+            <input type="submit" value="submit" name="submit">
+
+        </form>
+    </body>
+</html>
